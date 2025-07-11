@@ -132,3 +132,45 @@ main {
     margin: 0;
     
 }
+
+/* feedback */
+.user-feedback{
+    margin-top: 137px;
+}
+.review-list{
+    display: flex;
+    gap: 20px;
+}
+.section-title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.review-card{
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 24px 24px;
+    box-shadow: #F2EDED 2px 2px;
+    border: black 2px;
+}
+.review-header{
+    display: flex;
+    gap: 12px; ;
+    align-items: center;
+}
+.rev-description{
+    font-size: smaller;
+    color: #1E1E1E;
+}
+
+.name , .date {
+    color: #25243279;
+}
+.review-avatar{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+   
+}
+.reviewer-info{
+    
+    
