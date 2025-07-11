@@ -46,7 +46,7 @@ nav{
 }
 
 .header{
-    background-image:url(../image/hero-bg.png);
+    background-image:url('../image/hero-bg.png');
    width: auto;
    height: auto;
    gap: 158px;
@@ -74,11 +74,15 @@ nav{
 }
 .image-container{
     height: 328px;
-    white-space: 403px;
+    width: 403px;
     
 }
 main section div img {
 border-radius: 48px;
+}
+main{
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .grey{
