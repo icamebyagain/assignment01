@@ -1,7 +1,7 @@
 /* fonts */
 .inter-logo {
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
+    
     font-style: auto;
 }
 
@@ -182,64 +182,64 @@ main {
 }
 .get-in-touch{
     display: flex;
-    margin: 71px 0;
     justify-content: space-between;
-    margin-top: 200px;
-    border: none;
-
+    align-items: flex-start;
+    padding: 40px;
+    gap: 50px;
+    margin: 92px 0;
 }
 
-.contact-me-form{
-  
-}
-input[type=text]{
-    height: 70px;
-    width: 100%;
-    border-radius: 10px;
-    color: #D6DDED;
-    font-size: 20px;
-    
 
-}
+
 body{
     background-color: #D6DDED;
 }
-.messege{
-    
-}
-textarea{
-    height: 135px;
-    width: 100%;
-}
 
-footer {
-    text-decoration: none;
-    text-align: center;
-    background-color: rgb(240, 234, 234);
-    align-items: center;
-    max-width: auto;
-    max-height: 427px;
-    justify-content: center;
-    justify-items: center;
-    padding: 103px 454px;
-    gap: 0;
-}
-footer ul li {
-    display: inline;
-}
-.footer-nav{
-    width: 401px;
-    height: 24px;
-    gap: 48px;
-}
-.footer-desc{
-    width: 531px;
-}
-.contact-me-form h5 {
-  margin-bottom: 0;
-  font-size: 18px;
-}
+
 .name{
     margin-bottom: 0px;
     padding: 0;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+input, textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  width: 497px;
+  height: 70px;
+  gap: 10px;
+}
+
+form {
+    max-width: 497px;
+    max-height: 490px;
+    margin-top: 60px;
+}
+.contact-me {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.form-group textarea,
+.form-group button {
+  width: 100%;
+}
+
+/* footer style */
+.footer-logo{
+    font-size: 100px;
+    color: #4E47FF;
+}
+
+.footer{
+    max-width: 532px;
+    margin: 0 auto;
+    padding: 103px 454px;
 }
